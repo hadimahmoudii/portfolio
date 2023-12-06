@@ -1,0 +1,110 @@
+body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  .login-box {
+    width: 355px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+
+  .button{
+    height: 40px;
+    width: 315px;
+    padding: 7px;
+
+  }
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 15px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  .navbar a {
+    float: 300px;
+    color: darkgrey;
+    padding: 1px 3px;
+    text-decoration: none;
+
+  }
+  ul{
+    overflow: hidden;
+    }
+
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: white;
+    }
+    li {
+      display: inline;
+      font-size: 14px;
+      width: 4%;
+      float: left;
+      border: none;
+      overflow: hidden;
+    }
+
+    .logo{
+  width: 170px;
+  height: 100px;
+  align-items: center;
+  padding-left: 680px;
+  padding-top: 20px;
+
+}
+  
+  

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Home page{% endblock%}
+{% block content %}
+
+
+<div class="content">
+    <image src="{{ url_for('static', filename='images/logooo.png')}}" class="logo">
+
+    <h1>Welkom namens Corendon</h1>
+    <p>Wij zijn begonnen met een project genaamd "Fasten Your Seabelt" hiermee gaan we aan de slag in teamvorm</p>
+       <p>Na het project moet er voor gezorgd worden dat er wifi is in het vliegtuig.
+       Er moet dus een "captive portal" omgeving gecreerd worden.</p>
+
+
+
+    <h2 >Foto's in de lucht!</h2>
+    <p>Wij hebben wat foto's uit de lucht genomen om te laten zien hoe ons vliegtuig eruit ziet in de lucht!</p>
+
+    <image src="{{ url_for('static', filename='images/corfly.jpg')}}" alt="Trulli" width="600" height="355">
+    <image src="{{ url_for('static', filename='images/airpl.jpeg')}}" alt="Trulli" width="600" height="355">
+    <image src="{{ url_for('static', filename='images/corendonfly.jpg')}}" alt="Trulli" width="556" height="355">
+
+    <br></br>
+</div>
+<footer>
+    <p>Powered by class IC104, Team A<br>
+</footer>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock%}
+{% block content %}
+
+<image src="{{ url_for('static', filename='images/logooo.png')}}" class="logo">
+  <div class="login-box">
+    <h1>Login to use WiFi</h1>
+    <form method="post">
+      <label>Achternaam</label>
+      <input type="achternaam" name="achternaam">
+      <label>Ticketnummer</label>
+      <input type="ticketnummer" name="ticketnummer">
+      <input class="button" type="submit" value="Login">
+    </form>
+    <p>{{error}}</p>
+    <footer>
+    <p>Powered by class IC104, Team A<br>
+</footer>
+  </div>
+
+{% endblock %}

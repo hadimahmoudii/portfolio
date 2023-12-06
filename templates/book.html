@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Book{% endblock%}
+{% block content %}
+
+<image src="{{ url_for('static', filename='images/logooo.png')}}" class="logo">
+
+    <div>
+        <iframe src="{{ url_for('static', filename='images/book.pdf')}}" height="800px" width="80%" align="center">
+    </div>
+    <footer>
+    <p>Powered by class IC104, Team A<br>
+    </footer>
+    {% endblock %}

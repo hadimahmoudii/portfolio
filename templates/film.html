@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Movie{% endblock%}
+{% block content %}
+<div class="content">
+    <image src="{{ url_for('static', filename='images/logooo.png')}}" class="logo">
+    <h1>Bekijk hier films</h1>
+    <image src="{{ url_for('static', filename='images/myflixer.png')}}" width="375" height="255" align="left">
+        <br>Bekijk films die niet gestreamd worden via Netflix. Wij hebben een samenwerking met de streamingdienst "MyFlixer".</br>
+        <h3>Wat is MyFlixer?</h3>
+        <br>MyFlixer is een gratis streaming website waar u films en tv-series online kunt bekijken
+        <br>met meerdere genres hoogtepunten zoals Actie, Komedie, Schieten, Sport, Geschiedenis, Thriller en nog veel meer!
+        <br>MyFlixer update dagelijks nieuwe HD Films en Shows zodat u nooit uw favoriete titel hoeft te missen.</br>
+        <br>U kan doormiddel op de link te klikken doorgestuurd worden naar de filmpagina.
+        <p><a href="https://myflixer.to/movie">Bekijk hier de films!</a></p>
+
+
+
+    </div>
+<footer>
+  <p>Powered by class IC104, Team A<br>
+</footer>
+
+{% endblock %}

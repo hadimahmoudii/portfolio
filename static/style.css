@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+  }
+  
+  /* Style the topnav links */
+  .navbar a {
+    float: left;
+    color: darkgrey;
+    padding: 2px 5px;
+    text-decoration: none;
+  
+  }
+  ul{
+    overflow: hidden;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: white;
+    }
+    li {
+      display: inline;
+      font-size: 15px;
+      width: 5%;
+      float: left;
+      border: none;
+      overflow: hidden;
+    }
+    
+    
+    .content {
+    background-color: lightgrey;
+    padding: 30px;
+    height: 300%;
+    }
+    h1 {
+    color: red;
+    text-align: center;
+    font-size: 40px
+    
+    }
+    p {
+    font-size: 20px
+    }
+    
+    h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(6, 144, 224);
+    }
+
+    
+
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: rgb(204, 62, 52);
+      color: white;
+      display: block;
+    }
+
+    .logo{
+  width: 120px;
+  height: 80px;
+  align-items: center;
+  padding-left: 6px;
+
+}
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+
+  .button{
+    height: 40px;
+    width: 315px;
+    padding: 7px;
+
+  }
